@@ -1,0 +1,401 @@
+
+html{
+    box-sizing: border-box;
+    
+    scroll-behavior:smooth ;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color:  #3a3d40 ;
+    background-size: cover;
+
+}
+footer{
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+    display: flex;
+
+width: 100%;
+
+justify-content: space-evenly;
+line-height: 1.25;
+
+}
+footer p,h4{
+color:white;
+    margin: 20px;
+    font-size:20px;
+  /*  text-align: left;
+
+  
+    font-size:20px;
+    line-height: 1.25;
+    color: white;
+  margin-top: 10px;
+   
+    flex: auto;*/
+}/*
+footer h4{
+    margin-top: 10px;
+   
+    text-align: right;
+    
+    line-height: 1.25;
+    color: white;
+}*/
+
+footer i{
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.title{
+    font-size: 20px;
+    padding: 10px 5px;
+}
+.code{
+    color:#303841;
+    transition: color 0.3s ease-out;
+}
+.project :hover .code{
+    color:#ff7f50;
+}
+#navbar{
+    justify-content: flex-end;
+  position: fixed;
+background-color: #be3144;
+color:white;
+display: flex;
+width: 100%;
+position: fixed;
+/*padding: 10px;max-height: 80px;*/
+z-index: 7;
+
+
+top:0;
+left: 0;
+right: 0;
+
+}
+.navl{
+    display:flex;
+    margin-right: 20px;
+    list-style: none;
+  
+    
+}
+a{
+    text-decoration: none;
+}
+.navl a{
+    display: block;
+    font-size: 22px;
+    padding: 20px;
+    color:white;
+}
+/*nav li a{
+ justify-content: center;
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    text-align: left;
+    margin-right: 20px;
+}*/
+.navl a:hover{
+
+    background-color:#45567d ;
+background-position: cover;
+}
+
+#welcome-section{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: flex;
+    height:100vh;
+    width: 100%;
+  margin-top: 150px;
+  margin: 0 auto;
+padding :0 20px;
+}
+
+
+#welcome-section h1{
+    font-size: 60px;
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 150px;
+  
+}
+
+#welcome-section h3{
+    font-size:30px;
+    text-align: center;
+    color:#be3144;
+    font-weight: 200;
+    font-style: inherit;
+    font-family: sans-serif;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+padding: 0;
+
+}
+
+#Contact{
+    margin-top:80px ;
+  
+    text-align: center;
+    border-bottom: 4px solid #be3144;
+padding: 10,15px;
+height: 50vh;
+justify-content: center;
+}
+
+.ulcontact{
+    justify-content: center;
+    list-style: none;
+    display: inline;
+  
+  
+    padding: 0;
+    margin: 0;
+}
+.ulcontact li {
+    list-style: none;
+    display: inline;
+    
+}
+.ulcontact li a{
+    color: white;
+    font-size: 26px;
+   
+    margin: 0 10px;
+    text-decoration: none;
+}
+#Contact h1{
+    margin-bottom: 0;
+    font-size: 60px;
+    color: white;
+}
+#Contact p{
+    margin-bottom: 50px;
+  color: #f0f0f0;
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: 200px;
+  font-size: 18px;
+  
+}
+
+#projects{
+background-color:#45567d;
+width: 100%;
+height: 100hv;
+
+
+}
+
+
+
+#projects h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    max-width: 650px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+#allproject{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+       flex-wrap: wrap;
+
+     
+}
+.project{
+    margin: 18px;
+align-items: center;
+   max-width: 400px;
+ padding-bottom: 0;
+  
+    
+}
+
+
+.btnshow{
+    margin-top: 5px;
+    margin-bottom: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#303841 ;
+    font-size: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background 0.3 ease-out;
+    margin-top: 20px;
+    color: white;
+
+}
+.btnshow:hover{
+    background-color: #be3144;
+
+}
+.btnshow:hover >i {
+    transform: translateX(100px);
+}
+.btnshow >i{
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3 ease-out;
+}
+
+
+
+  
+
+  img{
+    max-width: 100%;
+width: 400px;
+height: 350px;}
+
+
+.project p{
+    font-size: 25px;
+widows: 400px;
+text-align: center;
+display: block;
+margin-top: 2px;
+background-color: #303841;
+margin-top: 0;
+padding: 20px;
+cursor: pointer;
+
+}
+.project a{
+    padding-top: 0;
+    margin-top :0;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.ulcontact a :hover{
+    transform: translateY(8px);
+}
+
+.ulcontact li  a :hover{
+transform: translateY(8px);
+}
+
+@media(max-width:30em){
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact{
+        font-size: 40px;
+        
+    }
+    .projects{
+        padding: 60px 10px;
+
+
+}
+.project{
+    grid-template-columns: 1fr;
+}
+}
+
+
+
+
+
+
+
+@media(max-width:30em){
+    #contact>h1{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width:28em){
+    #projects >h1{
+        font-size: 4rem;
+    }
+}
+@media(max-width:30em){
+   .project{
+        padding: 6rem 1rem;
+    }
+
+}
+
+
+@media(max-width:28em){
+    nav{
+        justify-content: center;
+    }
+    .navl{
+        margin: 0 10px;
+    }
+}
+@media(max-width:60em){
+   html{
+        font-size: 58%;
+    }
+}
+@media(max-width:75em){
+    html{
+        font-size: 60%;
+    }
+}
+
+
+@media(max-width:28em){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+
+
+
+
+
